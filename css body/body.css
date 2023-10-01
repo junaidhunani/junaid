@@ -1,0 +1,76 @@
+.discount-img-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    width: 50%;
+    margin-left: 25%;
+
+}
+.body-first-hd{
+    color: rgb(71, 70, 70);
+    font-size: 40px;
+    text-align: center;
+}
+.body-first-p{
+    color: rgb(119, 110, 110);
+    text-align: center;
+    font-size: 22px;
+}
+.tools-hd{
+    color: rgb(53, 50, 50);
+    text-align: center;
+    margin-top: 170px;
+    font-size: 50px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    transition: 0.5s;
+}
+.card:hover{
+    transform:scale(1.2) ;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.23);
+}
+figure{
+    border: 2px solid black;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+figure img{
+    width: 280px;
+    height: 250px;
+}
+.experiance-of-vava-cars{
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.experiance-of-vava-cars-hd{
+    font-size: 6vw;
+    color: green;
+    text-align: center;
+}
+.experiance{
+    border: none;
+    border-radius: 5px;
+    width: 700px;
+    height: 530px;
+    box-shadow: 2px 2px 2px 2px;
+    margin-left: 20vw;
+    margin-top: 7vh;
+}
+.experiance img{
+    width: 700px;
+    height: 400px;
+}
+.experiance a{
+    color: green;
+}
+
